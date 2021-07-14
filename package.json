@@ -1,0 +1,29 @@
+{
+  "name": "chit-chat-room",
+  "version": "1.0.0",
+  "description": "This repo holds code structure of Chit-chat Application. Made using React Express Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imakshay31/chit-chat-room.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imakshay31/chit-chat-room/issues"
+  },
+  "homepage": "https://github.com/imakshay31/chit-chat-room#readme",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
